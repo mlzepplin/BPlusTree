@@ -446,7 +446,7 @@ public class BPlusTree{
 		}
 	}
 
-	//print the nexta and previous of a node
+	//print the previous and next value of a node
 	void printNextPrev(Node node){
 		System.out.println("NEXT");
 		if(node.next==null){ System.out.println("null next node");}
